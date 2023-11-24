@@ -2,13 +2,14 @@
 <br><br><br>
 
 # Point2Mesh in PyTorch
+### SIGGRAPH 2020 [[Paper]](https://arxiv.org/abs/2005.11084) [[Project Page]](https://ranahanocka.github.io/point2mesh/)<br>
 
 Point2Mesh is a technique for reconstructing a surface mesh from an input point cloud.
 This approach "learns" from a single object, by optimizing the weights of a CNN to deform some initial mesh to shrink-wrap the input point cloud.
 
 ## Original Author
 
-Give credit to the original author:
+Give credit to the original author: [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) and [Gal Metzer](https://www.linkedin.com/in/gal-metzer-512803a1/).
 
   ```
 @article{Hanocka2020p2m,
@@ -33,18 +34,6 @@ Some changes have been made to the original code to make it compatible with the 
 - Upgraded dependencies to the latest versions.
 - Modified code snippets to comply with the latest syntax and best practices.
 - Added compatibility for Google Colab.
-
-
-### SIGGRAPH 2020 [[Paper]](https://arxiv.org/abs/2005.11084) [[Project Page]](https://ranahanocka.github.io/point2mesh/)<br>
-
-Point2Mesh is a technique for reconstructing a surface mesh from an input point cloud.
-This approach "learns" from a single object, by optimizing the weights of a CNN to deform some initial mesh to shrink-wrap the input point cloud.
-The argument for going this route is: since the (local) convolutional kernels are optimized globally across the entire shape,
-this encourages local-scale geometric self-similarity across the reconstructed shape surface.
-
-<img src="docs/images/global_anky.gif" align="center" width="250px"> <br>
-
-The code was written by [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) and [Gal Metzer](https://www.linkedin.com/in/gal-metzer-512803a1/).
 
 # Getting Started
 
