@@ -10,7 +10,6 @@ This approach "learns" from a single object, by optimizing the weights of a CNN 
 
 Give credit to the original author:
 
-- **Author:**
   ```
 @article{Hanocka2020p2m,
   title = {Point2Mesh: A Self-Prior for Deformable Meshes},
