@@ -72,35 +72,14 @@ bash ./scripts/get_data.sh
 ```
 
 ### Running Reconstruction 
-First, if using conda env first activate env e.g. ```source activate point2mesh```.
 All the scripts can be found in ```./scripts/examples```.
-Here are a few examples:
-
-#### Giraffe
-```bash
-bash ./scripts/examples/giraffe.sh
-```
-
-#### Bull
-```bash
-bash ./scripts/examples/bull.sh
-```
-
-#### Tiki
-```bash
-bash ./scripts/examples/tiki.sh
-```
+Here are an example:
 
 #### Noisy Guitar
 ```bash
 bash ./scripts/examples/noisy_guitar.sh
 ```
-... and more.
-#### All the examples
-To run all the examples in this repo:
-```bash
-bash ./scripts/run_all_examples.sh
-```
+
 # Running different Examples
 You should provide an initial mesh file. If the shape has genus 0, you can use the convex hull script provided in ```./scripts/process_data/convex_hull.py```
 
